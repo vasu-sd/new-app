@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+.HeaderContainer {
+  height: 76px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.detailContainer {
+  padding-left: 90px;
+  margin-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.labels {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  padding-bottom: 7px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputFields {
+  background: #FFFFFF;
+  border: 1px solid #97999B;
+  border-radius: 8px;
+  width: 279px;
+  height: 46px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.marbtm {
+  margin-bottom: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.proposal {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #757688;
+  padding-right: 10px;
+}
+
+.createproposal {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #363F5E;
+padding-left:10px;
+}
+
+.Footer {
+  padding-left: 100px;
+}
+
+.back {
+  width: 129px;
+  height: 40px;
+  color: #040748;
+  background: #FFFFFF;
+  border: 1px solid #040748;
+  border-radius: 8px;
+}
+
+.save {
+  width: 129px;
+  height: 40px;
+  color: #757688;
+  background: #FFFFFF;
+  border: 1px solid #757688;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.next {
+  width: 129px;
+  height: 40px;
+  color:#FFFFFF;
+  background: #040748;
+  border: 1px solid #040748;
+  border-radius: 8px;
+}
+
+@media(max-width: 600px){
+  .back {
+    display: none;
   }
 }
